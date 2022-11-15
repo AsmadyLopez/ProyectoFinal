@@ -1,0 +1,104 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.e1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #CD6155 ;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.estructura{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px
+}
+
+.logo a {
+text-decoration: none;
+color:#fff;
+text-transform: uppercase;
+font-size: 20px;
+
+}
+
+.estructura a {
+display: block;
+padding: 20px 20px;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 20 px;
+}
+
+.estructura a:hover{
+    background: #e91e63;
+}
+
+.encabezado{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(imagen/encabezado.jpg) no-repeat center;
+    background-size: cover;
+  
+}
+
+
+p{
+    font-size: 18px;
+    color: #000;  
+    padding: 0 100px;
+}
+
+
+.ecuador{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquema{
+    padding: 50px 0px;
+    background: #186A3B ;
+    
+}
+
+.titulo{
+    color: #fff;
+}
+
+.contacto{
+    padding: 400px 0px;
+    background: #7B7D7D;
+}
+
+ .contact{
+    color: #fff;
+ }
+
+ .precios{
+    background: #F1C40F;
+ }
